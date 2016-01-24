@@ -19,6 +19,12 @@
 		564C1CC31C54999E003AA2C4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C1CC21C54999E003AA2C4 /* InterfaceController.swift */; };
 		564C1CC51C54999E003AA2C4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C1CC41C54999E003AA2C4 /* ExtensionDelegate.swift */; };
 		564C1CC71C54999E003AA2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564C1CC61C54999E003AA2C4 /* Assets.xcassets */; };
+		5664CA441C54A0A3009F91E7 /* TamanoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664CA431C54A0A3009F91E7 /* TamanoController.swift */; };
+		5664CA461C54A0F3009F91E7 /* MasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664CA451C54A0F3009F91E7 /* MasaController.swift */; };
+		5664CA481C54A102009F91E7 /* QuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664CA471C54A102009F91E7 /* QuesoController.swift */; };
+		5664CA4A1C54A113009F91E7 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664CA491C54A113009F91E7 /* IngredientesController.swift */; };
+		5664CA4C1C54A126009F91E7 /* ResumenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664CA4B1C54A126009F91E7 /* ResumenController.swift */; };
+		5667519D1C549A460097A10A /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667519C1C549A460097A10A /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		564C1CC41C54999E003AA2C4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		564C1CC61C54999E003AA2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564C1CC81C54999E003AA2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5664CA431C54A0A3009F91E7 /* TamanoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoController.swift; sourceTree = "<group>"; };
+		5664CA451C54A0F3009F91E7 /* MasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaController.swift; sourceTree = "<group>"; };
+		5664CA471C54A102009F91E7 /* QuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoController.swift; sourceTree = "<group>"; };
+		5664CA491C54A113009F91E7 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		5664CA4B1C54A126009F91E7 /* ResumenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumenController.swift; sourceTree = "<group>"; };
+		5667519C1C549A460097A10A /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +162,12 @@
 				564C1CC41C54999E003AA2C4 /* ExtensionDelegate.swift */,
 				564C1CC61C54999E003AA2C4 /* Assets.xcassets */,
 				564C1CC81C54999E003AA2C4 /* Info.plist */,
+				5667519C1C549A460097A10A /* Datos.swift */,
+				5664CA431C54A0A3009F91E7 /* TamanoController.swift */,
+				5664CA451C54A0F3009F91E7 /* MasaController.swift */,
+				5664CA471C54A102009F91E7 /* QuesoController.swift */,
+				5664CA491C54A113009F91E7 /* IngredientesController.swift */,
+				5664CA4B1C54A126009F91E7 /* ResumenController.swift */,
 			);
 			path = "CreaTuPizzaWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -299,7 +317,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				564C1CC51C54999E003AA2C4 /* ExtensionDelegate.swift in Sources */,
+				5664CA4A1C54A113009F91E7 /* IngredientesController.swift in Sources */,
+				5664CA441C54A0A3009F91E7 /* TamanoController.swift in Sources */,
 				564C1CC31C54999E003AA2C4 /* InterfaceController.swift in Sources */,
+				5664CA481C54A102009F91E7 /* QuesoController.swift in Sources */,
+				5664CA4C1C54A126009F91E7 /* ResumenController.swift in Sources */,
+				5667519D1C549A460097A10A /* Datos.swift in Sources */,
+				5664CA461C54A0F3009F91E7 /* MasaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +552,7 @@
 				564C1CCD1C54999E003AA2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		564C1CCF1C54999E003AA2C4 /* Build configuration list for PBXNativeTarget "CreaTuPizzaWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +561,7 @@
 				564C1CD11C54999E003AA2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		564C1CD31C54999E003AA2C4 /* Build configuration list for PBXNativeTarget "CreaTuPizzaWatch" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +570,7 @@
 				564C1CD51C54999E003AA2C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

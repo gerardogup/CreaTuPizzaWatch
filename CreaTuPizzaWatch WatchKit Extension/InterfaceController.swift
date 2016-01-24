@@ -25,6 +25,9 @@ class InterfaceController: WKInterfaceController {
 
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
+        Pizza.tamano = "No Seleccionado"
+        Pizza.masa = "No Seleccionado"
+        Pizza.queso = "No Seleccionado"
         super.didDeactivate()
     }
 
